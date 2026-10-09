@@ -1,3 +1,0 @@
-PASS: 7 halaman pada lebar 390, 768, 1100, dan 1440 px; tidak ada overflow horizontal, gambar hilang, atau referensi file lokal hilang.
-PASS: pencarian, hasil kosong, Escape, validasi password, demo submit, reset, dan 3 alias nama lama.
-Catatan: screenshot Gallery versi HP tidak dapat diinspeksi secara visual melalui alat pratinjau. Pemeriksaan layout otomatis dan Gallery desktop berhasil.
