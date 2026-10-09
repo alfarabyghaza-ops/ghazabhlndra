@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website personal Ghaza Alfaraby: cerita, profil, dokumentasi, dan perjalanan belajar HTML & CSS.">
+    <title>Profil | Ghaza Alfaraby</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#konten">Langsung ke konten</a>
+<!-- 1. Top menu: kerangka dari project CSS awal -->
+<div class="top-menu wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">G.</span> GHAZA ALFARABY</a>
+    <ul>
+        <li><a href="mailto:alfarabyghaza@gmail.com">Email</a></li>
+        <li><a href="https://www.facebook.com/share/1D6EpYZXvJ/">Facebook</a></li>
+        <li><a href="https://www.youtube.com/@rzgaming1278">YouTube</a></li>
+        <li><a href="https://wa.me/6285363693972">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/gzaalfarabhlndra_/">Instagram</a></li>
+    </ul>
+</div>
+<!-- 2. Header: judul dan foto milikmu -->
+<header class="header wrap">
+    <div class="header-copy">
+        <p class="eyebrow">PERSONAL SPACE / KELAS 3C</p>
+        <h1>Sedikit tentang aku.<br>Banyak tentang perjalanan.</h1>
+        <p>Catatan kecil, momen berkesan, dan cerita dari Ghaza.</p>
+        <a class="header-link" href="profile.html">Kenalan dulu, yuk <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="header-photo"><img src="gambar/foto1.jpg" alt="Potret Ghaza saat dokumentasi panitia Fortasi"><span>Ghaza, in a frame.</span></div>
+</header>
+<!-- 3. Navbar + pencarian halaman lokal -->
+<nav class="nav-bar wrap" aria-label="Navigasi utama">
+    <div class="nav-menu"><a href="index.html">Home</a><a href="profile.html" class="active" aria-current="page">Profil</a><a href="galery.html">Gallery</a><a href="article.html">Article</a><a href="guestbook.html">Guestbook</a><a href="aboutme.html">About Me</a><a href="tutorial.html">Tutorial</a></div>
+    <form class="search-form" role="search">
+        <label class="sr-only" for="site-search">Cari halaman website</label>
+        <input id="site-search" name="q" type="search" placeholder="Cari halaman…" autocomplete="off">
+        <button type="submit" aria-label="Cari">↗</button>
+    </form>
+    <div id="search-results" class="search-results" role="status" aria-live="polite" hidden></div>
+</nav>
+<!-- 4. Isi konten: menu kiri + konten tengah -->
+<div class="isi-konten wrap">
+    <aside class="kiri" aria-label="Menu tambahan">
+        <fieldset><legend>JELAJAHI</legend><nav aria-label="Menu kiri"><a href="index.html"><span class="menu-number">01</span>Home</a><a href="profile.html" class="active" aria-current="page"><span class="menu-number">02</span>Profil</a><a href="galery.html"><span class="menu-number">03</span>Gallery</a><a href="article.html"><span class="menu-number">04</span>Article</a><a href="guestbook.html"><span class="menu-number">05</span>Guestbook</a><a href="aboutme.html"><span class="menu-number">06</span>About Me</a><a href="tutorial.html"><span class="menu-number">07</span>Tutorial</a></nav></fieldset>
+        <fieldset class="sidebar-gallery"><legend>POTONGAN MOMEN</legend><div class="mini-gallery">
+            <a href="galery.html"><img src="gambar/foto2.jpg" alt="Potret dari atas GB"></a>
+            <a href="galery.html"><img src="gambar/foto3.jpg" alt="Momen mendaki di UIN"></a>
+            <a href="galery.html"><img src="gambar/foto4.jpg" alt="Temu ramah mahasiswa baru"></a>
+            <a href="galery.html"><img src="gambar/foto5.jpg" alt="Dokumentasi PBAK fakultas"></a>
+        </div><a class="text-link" href="galery.html">Lihat semua foto <span aria-hidden="true">↗</span></a></fieldset>
+        <div class="sidebar-note"><p class="eyebrow">PENGINGAT KECIL</p><p>“Tetap sabar.<br>Jalanin hidup.”</p><span>Dari aku, untuk aku.</span></div>
+    </aside>
+    <main class="tengah" id="konten" tabindex="-1">
+        <div class="page-heading"><p class="eyebrow">GHAZA'S JOURNAL / PROFIL</p><h2>Profil</h2><p>Kenalan lebih dekat dengan orang di balik website ini.</p></div>
+        <section class="profile-intro"><img src="gambar/foto2.jpg" alt="Foto profil Ghaza"><div><span class="tag">MAHASISWA SISTEM INFORMASI</span><h3>Ghaza Alfaraby<br>Bhalendra.</h3><p>Biasa dipanggil Ghaza. Dari Siak, Riau — lagi belajar merangkai cerita lewat HTML dan CSS.</p><a class="text-link" href="mailto:alfarabyghaza@gmail.com">Sapa lewat email ↗</a></div></section>
+<div class="two-columns"><section class="panel"><h3>Identitas diri</h3><dl class="detail-list"><div><dt>Nama panggilan</dt><dd>Ghaza</dd></div><div><dt>Tempat, tanggal lahir</dt><dd>Tembilahan, 5 Oktober 2006</dd></div><div><dt>Jenis kelamin</dt><dd>Laki-laki</dd></div><div><dt>Domisili</dt><dd>Siak, Riau</dd></div></dl></section><section class="panel"><h3>Pendidikan</h3><ol class="timeline"><li><span>Sekolah Dasar</span><strong>SD Negeri 001 Dayun</strong></li><li><span>Madrasah Tsanawiyah</span><strong>Pondok Modern Darussalam Gontor</strong></li><li><span>Madrasah Aliyah</span><strong>Pondok Modern Darussalam Gontor</strong></li></ol></section></div>
+<div class="two-columns"><section class="panel"><h3>Hobi &amp; minat</h3><p>Olahraga dan belajar pemrograman web. Pelan-pelan, yang penting terus mencoba.</p></section><section class="panel"><h3>Versi aku sendiri 😄</h3><p>Mencintai apa yang dimiliki. Baik, lucu, tidak sombong, rajin menabung — dan sering menjadi tempat pelampiasan.</p></section></div>
+<blockquote class="quote">“Biarkan orang menilai saya apa, saya tetap berdiri di atas kaki saya sendiri.”<cite>— Ghaza</cite></blockquote>
+<section class="panel"><h3>Terhubung denganku</h3><div class="contact-links"><a href="mailto:alfarabyghaza@gmail.com">Email ↗</a><a href="https://www.instagram.com/gzaalfarabhlndra_/">@gzaalfarabhlndra_ ↗</a><a href="https://wa.me/6285363693972">WhatsApp ↗</a></div></section>
+    </main>
+</div>
+<!-- 5. Footer -->
+<footer class="footer wrap"><div><a class="brand" href="index.html">GHAZA ALFARABY<span class="footer-dot">.</span></a><p>Belajar. Bercerita. Bertumbuh.</p></div><p>Project HTML & CSS · Kelas 3C<br><span>© 2026 Ghaza Alfaraby Bhalendra</span></p></footer>
+</body>
+</html>
